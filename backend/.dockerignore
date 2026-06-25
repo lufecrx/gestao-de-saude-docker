@@ -1,0 +1,9 @@
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+vidaplena.db
+.git
+.gitignore
