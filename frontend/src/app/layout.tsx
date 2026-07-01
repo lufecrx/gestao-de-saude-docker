@@ -5,7 +5,7 @@ import type { ReactNode } from 'react';
 
 export const metadata: Metadata = {
   title: 'VidaPlena - Gestão de Saúde Familiar',
-  description: 'Sistema de gestão de pacientes e agendamentos para a FESF-SUS',
+  description: 'Sistema de gestão de pacientes e agendamentos',
 };
 
 export default function RootLayout({

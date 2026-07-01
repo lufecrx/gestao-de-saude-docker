@@ -1,14 +1,14 @@
-# Seleção FESF-SUS – 2 F.C
+# Projeto CRUD com conteinerização
 
-## VidaPlena — (FESF-SUS)
+## Gestão de Saúde
 
-Este repositório contém toda a infraestrutura de conteinerização necessária para executar o sistema VidaPlena completo de forma isolada, reproduzível e pronta para produção.
+Este repositório contém toda a infraestrutura de conteinerização necessária para executar o sistema de Gestão de Saúde completo de forma isolada, reproduzível e pronta para produção.
 
 ---
 
 ## Arquitetura Docker
 
-Todo o ecossistema VidaPlena é executado por meio de containers Docker orquestrados pelo **Docker Compose**. A arquitetura é composta por:
+Todo o ecossistema é executado por meio de containers Docker orquestrados pelo **Docker Compose**. A arquitetura é composta por:
 
 | Serviço | Tecnologia | Porta | Descrição |
 |---------|-----------|-------|-----------|
@@ -62,10 +62,9 @@ Após executar `docker compose up --build -d`, os serviços estarão disponívei
 
 | Recurso | URL | Descrição |
 |---------|-----|-----------|
-| **Frontend (VidaPlena)** | [http://localhost:3000](http://localhost:3000) | Interface com dashboard, cadastro de pacientes e gestão de agendamentos |
+| **Frontend** | [http://localhost:3000](http://localhost:3000) | Interface com dashboard, cadastro de pacientes e gestão de agendamentos |
 | **API Backend** | [http://localhost:8000](http://localhost:8000) | Endpoint base da API FastAPI |
 | **Documentação Swagger UI** | [http://localhost:8000/docs](http://localhost:8000/docs) | Documentação gerada automaticamente pelo FastAPI |
 
 ---
 
-Desenvolvido para o Processo de Seleção FESF-SUS.

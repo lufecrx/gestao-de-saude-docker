@@ -5,8 +5,8 @@ from fastapi.responses import JSONResponse
 description_md = """
 VidaPlena API - MVP
 
-Este serviço implementa um subconjunto do ecossistema VidaPlena focado em `Pacientes` e `Agendamentos`,
-destinado ao Processo de Seleção Pública (FESF-SUS). A documentação expõe rotas de CRUD, filtros clínicos,
+Este serviço implementa um subconjunto do ecossistema VidaPlena focado em `Pacientes` e `Agendamentos`. 
+A documentação expõe rotas de CRUD, filtros clínicos,
 validações de negócio e exemplos de payloads para avaliação técnica.
 
 Use as rotas agrupadas por tags `Pacientes` e `Agendamentos`.
@@ -18,7 +18,7 @@ from .api.endpoints.agendamentos import router as agendamentos_router
 
 
 app = FastAPI(
-    title="VidaPlena API - Gestão de Saúde Familiar (FESF-SUS)",
+    title="VidaPlena API - Gestão de Saúde Familiar",
     description=description_md,
     version="0.1.0",
     contact={"name": "Luiz Felipe", "email": "luizfelipecrx@gmail.com"},
